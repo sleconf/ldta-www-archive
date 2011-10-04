@@ -1,0 +1,94 @@
+module committees
+import leftsidebar
+import rightsidebar
+
+site
+ committees.html: main
+end
+
+def css(url, media)
+  link(rel="stylesheet", href=url, type="text/css", media=media);
+end
+
+
+def parTitle(title)
+ h1.title title;
+end
+
+def par 
+ div.entry {
+  yield;
+ }
+end
+
+def section(title) 
+  parTitle(title);
+  par yield;
+end
+
+def allcommittees
+section("LDTA Committees") {
+
+h2 "Program Committee" ;
+ul {
+echo "TBA";
+}
+
+h2 "Organizing Committee";
+ul {
+ li { a(href="http://phoenix.inria.fr/balland") "Emilie Balland"; 
+      echo ", INRIA, France"; }
+ li { a(href="http://www.ii.uib.no/~anya/") "Anya Helene Bagge" ;
+      echo ", University of Bergen, Norway" ; }
+}
+
+h2 "Steering Committee";
+ul {
+ li { a(href="http://www.win.tue.nl/~mvdbrand/") "Mark van den Brand"; 
+      echo ", Eindhoven University of Technology, The Netherlands"; }
+ li { a(href="http://cs.lth.se/gorel_hedin") "G&ouml;rel Hedin"; 
+      echo ", Lund University, Sweden"; }
+ li { a(href="http://www.comp.mq.edu.au/~asloane/") "Tony Sloane"; 
+      echo ", Macquarie University, Australia"; }
+ li { a(href="http://www.cs.umn.edu/~evw") "Eric Van Wyk"; 
+      echo ", University of Minnesota, United States"; }
+}
+}
+end
+
+def main 
+html(xmlns='http://www.w3.org/1999/xhtml) {
+ 
+    head {
+     title "LDTA";
+     meta(http-equiv="content-type", content="text/html; charset=utf-8");
+     meta(name="keywords", content="Programming Debugging Language Descriptions Parsing Parsers Term Rewriting Attribute Grammars Functional Programming Debugging Model Driven Engineering Formal Methods Meta Programming");
+     meta(name="description", content="The International Workshop on Language Descriptions Tools and Applications");
+     meta(name="language", content="NL");
+     css("./style.css", "screen");
+     comment "Design by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Compressed \nDescription: A three-column, fixed-width template fit for 1024x768 screen resolutions.\nVersion    : 1.0\nReleased   : 20080524";
+    }
+
+    body {
+      div#logo h1.logo "Workshop on Language Descriptions, Tools, and Applications";
+      div#page {
+        div.sidebar#sidebar1 {
+         br; 
+         previous;
+        }
+
+      div#content div.bgtop div.bgbtm div.post allcommittees();
+
+    div.sidebar#sidebar2 {
+      br;
+      relatedLinks;
+    }
+   }
+    div(style="clear: both;") {
+      br;
+      div#footer p.legal "&copy;2007 All Rights Reserved. 
+      Design by <a(href="http://www.freecsstemplates.org/") "Free CSS Templates">";
+    }
+  }
+  }
+end

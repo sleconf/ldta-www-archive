@@ -1,0 +1,352 @@
+module call
+import rightsidebar
+import leftsidebar
+
+site
+ call.html: main
+end
+
+def css(url, media)
+  link(rel="stylesheet", href=url, type="text/css", media=media);
+end
+
+def content
+  callForPapers();
+end
+
+
+def temporaryContent
+ p "12th International Workshop on Language Descriptions, Tools, 
+    and Applications" ;
+ p "Tallinn, Estonia; March 31 - April 1, 2012; an ETAPS workshop" ;
+ p "Call for Papers to be published soon.";
+end
+
+
+def callForPapers
+ section("Call for Papers and Tool Challenge Submissions") { 
+
+ p "
+                    12th International Workshop on
+            Language Descriptions, Tools, and Applications
+   ";
+ p "
+                           Tallinn, Estonia
+                       March 31 - April 1, 2012
+                           an ETAPS workshop
+   ";
+
+
+p "
+LDTA is an application and tool-oriented workshop focused on
+grammarware - software based on grammars in some form.  Grammarware
+applications are typically language processing applications and
+traditional examples include parsers, program analyzers, optimizers
+and translators.  A primary focus of LDTA is grammarware that is
+generated from high-level grammar-centric specifications and thus
+submissions on parser generation, attribute grammar systems,
+term/graph rewriting systems, and other grammar-related
+meta-programming tools, techniques, and formalisms are encouraged.
+" ;
+
+p "
+LDTA is also a forum in which theory is put to the test, in many cases
+on real-world software engineering challenges.  Thus, LDTA also
+solicits papers on the application of grammarware to areas including,
+but not limited to, the following:
+" ;
+ul {
+li "program analysis, transformation, generation, and verification," ;
+li "implementation of Domain-Specific Languages," ;
+li "reverse engineering and re-engineering," ;
+li "refactoring and other source-to-source transformations,";
+li "language definition and language prototyping, and," ;
+li "debugging, profiling, IDE support, and testing." ;
+}
+
+p "
+This year LDTA will also be putting theory, as well as techniques and
+tools, to the test in a new way - in the LDTA Tool Challenge.  Tool
+developers are invited to participate in the Challenge by developing
+solutions to a range of language processing tasks over a simple but
+evolving set of imperative programming languages.  Tool challenge
+participants will present highlights of their solution during a
+special session of the workshop and contribute to a joint paper on the
+Tool Challenge and proposed solutions to be co-authored by all
+participants after the workshop.
+" ;
+
+p "
+Note that LDTA is a well-established workshop similar to other
+conferences on (programming) language engineering topics such as SLE
+and GPCE, but is solely focused on grammarware.
+" ;
+}
+
+h2 "Paper Submission";
+
+p "
+LDTA solicits papers in the following categories.
+" ;
+ul {
+li "
+  research papers - original research results within the scope of LDTA
+  with a clear motivation, description, analysis, and evaluation.
+" ;
+li "
+  short research papers - new innovative ideas that have not been
+  completely fleshed out.  As a workshop, LDTA strongly encourages
+  these types of submissions.
+" ;
+li "
+  experience report papers - description of the use of a grammarware
+  tool or technique to solve a non-trivial applied problem with an
+  emphasis on the advantages and disadvantages of the chosen approach
+  to the problem.
+" ;
+li "
+  tool demo papers - discussion of a tool or technique that explains
+  the contributions of the tool and what specifically will be
+  demonstrated.  These papers should describe tools and applications
+  that do not fit neatly into the specific problems in the Tool
+  Challenge.
+";
+}
+
+p "
+Each submission must clearly state in which of these categories it
+falls and not be published or submitted elsewhere.  Papers are to use
+the standard LaTeX article style and the authblk style for
+affiliations; a sample of which is provided at www.ldta.info.
+Research and experience papers are limited to 15 pages, tool
+demonstration papers are limited to 10 pages, and short papers are
+limited to 6 pages.  The final version of the accepted papers will,
+pending approval, be published in the ACM Digital Library and will
+also be made available during the workshop.
+" ;
+
+p {
+echo "Please submit your abstract and paper using EasyChair at ";
+a(href="http://www.easychair.org/conferences/?conf=ldta2011") "http://www.easychair.org/conferences/?conf=ldta2011";
+echod "." ;
+}
+
+p "
+The authors of each submission are required to give a presentation at
+LDTA 2011 and tool demonstration paper presentations are intended to
+include a significant live, interactive demonstration.
+" ;
+
+p "
+The authors of the best papers will be invited to write a journal
+version of their paper which will be separately reviewed and, assuming
+acceptance, be published in journal form.  As in past years this will
+be done in a special issue of the journal Science of Computer
+Programming (Elsevier Science).
+" ;
+
+
+h2 "Invited Speaker" ;
+
+p {
+a (href="http://www.cs.ru.nl/~rinus/") "Rinus Plasmeijer";
+echo ". Radboud University Nijmegen, The Netherlands";
+}
+
+
+h2 "LDTA Tool Challenge" ;
+
+p "
+The aim of the LDTA Tool Challenge is to foster a better
+understanding, among tool developers and tool users, of relative
+strengths and weaknesses of different language processing tool
+techniques as well as different implementations and realizations of
+those techniques.  Tool developers are invited to participate in the
+Tool Challenge and demonstrate their solution to the problems during
+a special session of LDTA 2011.
+" ;
+
+p {
+echo "
+The problems in the LDTA Tool Challenge Problem Set can be viewed as
+points in a two dimensional space: one dimension specifying language
+processing tasks and the second dimension specifying the set of
+languages to which these tasks are to be applied.  Along the task
+dimension are several traditional language processing tasks such as
+parsing, pretty printing, semantic analysis, optimization, and code
+generation. The language dimension is comprised of a simple, but
+evolving, suite of imperative programming languages. These two
+dimensions form a &quot;problem space&quot; in which various techniques and
+implementations will find problems in which they excel and others in
+which they find some challenges; no single technique or tool is
+expected to be optimal for all problems.  Thus, this is a &quot;challenge&quot;
+and not a competition; no winner is declared.  The full description of
+the problem set can be found in the LDTA Tool Challenge Problem Set
+document on the LDTA web page at ";
+a(href="http://www.ldta.info") "http://www.ldta.info";
+echo "." ;
+}
+
+p "
+The Tool Challenge is open to developers of all kinds of grammarware
+tools and techniques.  To participate, tool developers must submit the
+following by March 5, 2011.  Names of participants and the name of
+their tool or technique.  Presentation title and abstract.  The short
+abstract should specify on what aspects of the problem set the tool
+was applied, where it excelled and where no solution was offered
+and/or the solution was considered less than optimal.  We expect these
+to be only a few paragraphs in length.
+" ;
+
+p "
+This information is used for scheduling purposes only and is not used
+for evaluation; as all tool developers interested in participating are
+welcome and will be given an opportunity to present their solution at
+the workshop.  Submission of this information indicates a commitment
+to attend LDTA and to participate in the workshop.  This information
+will be listed in the program.
+" ;
+
+p "
+Authors of submissions that appear to be outside of the scope of LDTA
+will be contacted to discuss the relevance of their work to the
+workshop.  Of course tool developers who question whether their work
+falls with the scope of LDTA are encouraged to contact the PC chairs
+early on for clarification.
+" ;
+
+p "
+After the workshop a joint paper will be written by participants and
+submitted to a journal, most likely Science of Computer Programming.
+It is separate from the proceedings of the workshop and any special
+journal issue for the workshop.
+";
+
+h2 "Program Committee" ;
+ul {
+ li { a(href="http://www.loria.fr/~balland/") "Emilie Balland"; 
+      echo ", INRIA, France"; }
+ li { a(href="http://www.ii.uib.no/~anya/") "Anya Helene Bagge" ;
+      echo ", University of Bergen, Norway" ; }
+ li { a(href="http://www.cin.ufpe.br/~phmb/") "Paulo Borba"; 
+      echo ", Federal University of Pernambuco, Brazil" ; }
+ li { a(href="http://www.cs.uwm.edu/~boyland/") "John Boyland"; 
+      echo ", University of Wisconsin, United States" ; }
+ li { a(href="http://www.itu.dk/~brabrand/") "Claus Brabrand";
+      echo ", IT University of Copenhagen, Denmark (co-chair), brabrand@itu.dk" ; }
+ li { a(href="http://research.cs.queensu.ca/~cordy/") "Jim Cordy";
+      echo ", Queen's University, Canada" ; }
+ li { a(href="http://plasse.hanyang.ac.kr/~doh") "Kyung-Goo Doh"; 
+      echo ", Hanyang University, Ansan, South Korea" ; }
+ li { a(href="http://www.ecs.soton.ac.uk/people/gre") "Giorgios Robert Economopoulos"; 
+      echo ", University of Southampton, UK" ; }
+ li { a(href="http://www.sable.mcgill.ca/~hendren/") "Laurie Hendren";
+      echo ", McGill University, Canada" ; }
+ li { a(href="http://webhome.cs.uvic.ca/~nigelh/") "Nigel Horspool";
+      echo ", University of Victoria, Canada" ; }
+// li { a(href="") "Shan Shan Huang";
+//      echo ", Logic Blox, United States" ;}
+ li { a(href="http://www.inf.puc-rio.br/~roberto/")"Roberto Ierusalimschy" ;
+      echo ", Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil" ; }
+ li { a(href="http://people.cs.uu.nl/johanj/") "Johan Jeuring"; 
+      echo ", Utrecht University, The Netherlands" ; }
+ li { a(href="http://www.eg.bucknell.edu/~sm053/") "Shane Markstrum"; 
+      echo ", Bucknell University, United States" ; }
+ li { a(href="http://plrg.kaist.ac.kr/ryu") "Sukyoung Ryu" ;
+      echo ", Korea Advanced Institute of Science and Technology,
+      Korea" ; }
+ li { a(href="http://www3.di.uminho.pt/~jas/") "Jo&atilde;o Saraiva"; 
+      echo ", Universidade do Minho, Portugal" ; }
+ li { a(href="http://www.lsv.ens-cachan.fr/~schmitz/") "Sylvain Schmitz";
+      echo ", Ecole Normale Sup&eacute;rieure de Cachan, France"; }
+ li { a(href="http://www.sts.tu-harburg.de/~schupp") "Sibylle Schupp";
+      echo ", Hamburg University of Technology, Germany"; }
+ li { a(href="http://people.cs.vt.edu/~tilevich/") "Eli Tilevich"; 
+      echo ", Virginia Tech, United States" ; }
+ li { a(href="http://www.cs.umn.edu/~evw") "Eric Van Wyk"; 
+      echo ", University of Minnesota, United States (co-chair), evw@cs.umn.edu" ; }
+ li { a(href="http://swerl.tudelft.nl/bin/view/EelcoVisser") "Eelco Visser"; 
+      echo ", Delft University of Technology, The Netherlands" ; }
+}
+
+h2 "Organizing Committee";
+ul {
+ li { a(href="http://www.loria.fr/~balland/") "Emilie Balland"; 
+      echo ", INRIA, France"; }
+ li { a(href="http://www.ecs.soton.ac.uk/people/gre") "Giorgios Robert Economopoulos" ;
+      echo ", University of Southampton, UK"; }
+}
+
+h2 "Steering Committee";
+ul {
+ li { a(href="http://www.win.tue.nl/~mvdbrand/") "Mark van den Brand"; 
+      echo ", Eindhoven University of Technology, The Netherlands"; }
+ li { a(href="http://cs.lth.se/gorel_hedin") "G&ouml;rel Hedin"; 
+      echo ", Lund University, Sweden"; }
+ li { a(href="http://www.comp.mq.edu.au/~asloane/") "Tony Sloane"; 
+      echo ", Macquarie University, Australia"; }
+ li { a(href="http://www.cs.umn.edu/~evw") "Eric Van Wyk"; 
+      echo ", University of Minnesota, United States"; }
+}
+
+
+end
+// end of Call for Papers
+
+
+
+def parTitle(title)
+ h1.title title;
+end
+
+def par 
+ div.entry {
+  yield;
+ }
+end
+
+def section(title) 
+  parTitle(title);
+  par yield;
+end
+
+def subtitle(title)
+  p.meta small title;
+end
+
+def main 
+html(xmlns='http://www.w3.org/1999/xhtml) {
+ 
+    head {
+     title "LDTA";
+     meta(http-equiv="content-type", content="text/html; charset=utf-8");
+     meta(name="keywords", content="Programming Debugging Language Descriptions Parsing Parsers Term Rewriting Attribute Grammars Functional Programming Debugging Model Driven Engineering Formal Methods Meta Programming");
+     meta(name="description", content="The International Workshop on Language Descriptions Tools and Applications");
+     meta(name="language", content="NL");
+     css("./style.css", "screen");
+     comment "Design by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Compressed \nDescription: A three-column, fixed-width template fit for 1024x768 screen resolutions.\nVersion    : 1.0\nReleased   : 20080524";
+    }
+
+    body {
+      div#logo h1.logo "Workshop on Language Descriptions, Tools, and Applications";
+      div#page {
+        div.sidebar#sidebar1 {
+         br; 
+         previous;
+        }
+
+      div#content div.bgtop div.bgbtm div.post content();
+
+    div.sidebar#sidebar2 {
+      br;
+      relatedLinks;
+    }
+   }
+    div(style="clear: both;") {
+      br;
+      div#footer p.legal "&copy;2007 All Rights Reserved. 
+      Design by <a(href="http://www.freecsstemplates.org/") "Free CSS Templates">";
+    }
+  }
+  }
+end
