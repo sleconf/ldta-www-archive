@@ -19,8 +19,8 @@ def previous
           li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dec. 5, 2011" ;
           li "Author notification:";
           li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan. 20, 2012" ;
-          li "Tool challenge submission:";
-          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar. 04, 2012" ;
+//          li "Tool challenge submission:";
+//          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar. 04, 2012" ;
           li "Camera-ready papers:";
           li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Feb. 5, 2012" ;
           li "LDTA Workshop:";

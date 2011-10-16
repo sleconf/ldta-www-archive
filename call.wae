@@ -126,11 +126,9 @@ Programming (Elsevier Science).
 
 
 h2 "Invited Speaker" ;
-
-p {
-echo "To be announced";
-}
-
+p "
+  To be announced
+";
 
 h2 "LDTA Tool Challenge" ;
 
