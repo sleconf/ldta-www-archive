@@ -31,15 +31,19 @@ section("LDTA Committees") {
 
 h2 "Program Committee" ;
 ul {
-echo "TBA";
+ li { a(href="http://www.win.tue.nl/~andova/") "Suzana Andova"; 
+      echo ", Eindhoven University of Technology, The Netherlands (co-chair)"; }
+ li { a(href="http://www.comp.mq.edu.au/~asloane/") "Tony Sloane"; 
+      echo ", Macquarie University, Australia (co-chair)"; }
+ li { echo "To be announced" ; }
 }
 
 h2 "Organizing Committee";
 ul {
- li { a(href="http://phoenix.inria.fr/balland") "Emilie Balland"; 
-      echo ", INRIA, France"; }
- li { a(href="http://www.ii.uib.no/~anya/") "Anya Helene Bagge" ;
+li { a(href="http://www.ii.uib.no/~anya/") "Anya Helene Bagge" ;
       echo ", University of Bergen, Norway" ; }
+li { a(href="http://phoenix.inria.fr/balland") "Emilie Balland"; 
+      echo ", INRIA, France"; }
 }
 
 h2 "Steering Committee";

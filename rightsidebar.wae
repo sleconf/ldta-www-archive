@@ -10,10 +10,10 @@ def relatedLinks
 //   li { a(href="index.html") "Home"; br;
 //        a(href="flyer.pdf") "1 page LDTA flyer"; 
 //      }
-//   li { 
-//     h2 "Authors";
-//     ul {
-//
+   li { 
+     h2 "Authors";
+     ul {
+
 //         li { echo "Updated NEW - Final version paper templates";
 //          ul {
 //           li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
@@ -23,14 +23,14 @@ def relatedLinks
 //          }
 //         }
 
-//         li "Call for Papers";
-//         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
-//              a(href="call.html") "HTML"; echo "|";
-//              a(href="ldta_2011_cfp.pdf") "PDF";  echo "|";
-//              a(href="ldta_2011_cfp.txt") "Text"; 
-//            }
-//         li a(href="http://www.easychair.org/conferences/?conf=ldta2011")
-//            "EasyChair Submission";
+         li "Call for Papers";
+         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
+              a(href="call.html") "HTML"; echo "|";
+              a(href="ldta_2012_cfp.pdf") "PDF";  echo "|";
+              a(href="ldta_2012_cfp.txt") "Text"; 
+            }
+         li a(href="http://www.easychair.org/conferences/?conf=ldta2012")
+            "EasyChair Submission";
 
 //         li "Paper templates";
 //         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
@@ -40,8 +40,8 @@ def relatedLinks
 //              echo "|";
 //              a(href="styleTemplates/ldta-2011-template.pdf") "PDF";
 //            }
-//     }
-//   }
+     }
+   }
 
 //   li {
 //     h2 "Tool Challenge";
