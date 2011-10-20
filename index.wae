@@ -39,6 +39,11 @@ section("News and updates") {
 
 
 ul {
+ li { echo "Oct. 20, 2011:"; br;
+      a (href="committees.html") "Program Committee";
+      echo " now available.";
+    }
+
  li { echo "Oct. 16, 2011:"; br;
       a (href="call.html") "Call for Papers";
       echo " now available.";

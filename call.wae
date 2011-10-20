@@ -167,6 +167,7 @@ ul {
        echo ", E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary"; }
  li { a(href="http://www.inf.usi.ch/nystrom/") "Nate Nystrom";
       echo ", University of Lugano, Switzerland"; }
+ li { echo "[Full list to be announced later]"; }
 }
 
 h2 "Organizing Committee";
