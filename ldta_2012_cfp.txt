@@ -102,8 +102,19 @@ being prepared by challenge participants.
 Program Committee
 -----------------
 Suzana Andova, Eindhoven University of Technology, The Netherlands (co-chair)
-Tony Sloane, Macquarie University, Australia (co-chair)
-To be announced
+Anthony Sloane, Macquarie University, Australia (co-chair)
+Anya Helene Bagge, University of Bergen, Norway
+Kyung-Goo Doh, Hanyang University, Ansan, South Korea
+Jeff Gray, University of Alabama, USA
+Görel Hedin, Lund Institute of Technology, Sweden
+Zhenjiang Hu, National Institute of Informatics, Japan
+Ivan Kurtev, University of Twente, The Netherlands
+Marjan Mernik, University of Maribor, Slovenia
+Sylvain Schmitz, Ecole Normale Supérieure de Cachan, France
+Vadim Zaytsev, Centre for Mathematics & Computer Science, The Netherlands
+Zoltán Horváth, Eötvös Loránd University, Budapest, Hungary 
+Nate Nystrom, University of Lugano, Switzerland
+[Full list to be announced later]
 
 Organizing Committee
 --------------------
