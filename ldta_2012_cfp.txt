@@ -52,7 +52,9 @@ LDTA solicits papers in the following categories.
 
 - tool demo papers: discussion of a tool or technique that explains
   the contributions of the tool and what specifically will be
-  demonstrated.
+  demonstrated.  These papers should describe tools and applications
+  that do not fit neatly into the specific problems in the Tool
+  Challenge.
 
 Each submission must clearly state in which of these categories it
 falls and not be published or submitted elsewhere.  Papers are to use
