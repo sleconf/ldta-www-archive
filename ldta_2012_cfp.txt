@@ -107,13 +107,14 @@ Anya Helene Bagge, University of Bergen, Norway
 Kyung-Goo Doh, Hanyang University, Ansan, South Korea
 Jeff Gray, University of Alabama, USA
 Görel Hedin, Lund Institute of Technology, Sweden
+Zoltán Horváth, Eötvös Loránd University, Budapest, Hungary 
 Zhenjiang Hu, National Institute of Informatics, Japan
 Ivan Kurtev, University of Twente, The Netherlands
 Marjan Mernik, University of Maribor, Slovenia
-Sylvain Schmitz, Ecole Normale Supérieure de Cachan, France
-Vadim Zaytsev, Centre for Mathematics & Computer Science, The Netherlands
-Zoltán Horváth, Eötvös Loránd University, Budapest, Hungary 
 Nate Nystrom, University of Lugano, Switzerland
+Sylvain Schmitz, Ecole Normale Supérieure de Cachan, France
+Laurence Tratt, King's College London, UK
+Vadim Zaytsev, Centre for Mathematics & Computer Science, The Netherlands
 [Full list to be announced later]
 
 Organizing Committee
