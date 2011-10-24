@@ -165,7 +165,7 @@ ul {
       echo ", Ecole Normale Sup&eacute;rieure de Cachan, France"; }
  li { a(href="http://www.comp.mq.edu.au/~asloane/") "Tony Sloane"; 
       echo ", Macquarie University, Australia (co-chair)"; }
- li { a(href="http://tratt.net/laurie/" "Laurence Tratt";
+ li { a(href="http://tratt.net/laurie/") "Laurence Tratt";
       echo ", King's College London, UK"; }
  li { a(href="http://grammarware.net") "Vadim Zaytsev"; 
        echo ", Centre for Mathematics & Computer Science, The Netherlands"; }
