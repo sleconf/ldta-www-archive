@@ -155,21 +155,26 @@ ul {
        echo ", E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary"; }
  li { a(href="http://research.nii.ac.jp/~hu") "Zhenjiang Hu";
       echo ", National Institute of Informatics, Japan"; }
+ li { a(href="http://www.inf.puc-rio.br/~roberto/") "Roberto Ierusalimschy";
+      echo ", Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil";}
  li { a(href="http://trese.cs.utwente.nl/~kurtev") "Ivan Kurtev";
        echo ", University of Twente, The Netherlands"; }
  li { a(href="http://lpm.uni-mb.si/mernik/") "Marjan Mernik"; 
       echo ", University of Maribor, Slovenia"; }
  li { a(href="http://www.inf.usi.ch/nystrom/") "Nate Nystrom";
       echo ", University of Lugano, Switzerland"; }
+ li { a(href="http://di.uminho.pt/~jas/") "Jo&atilde;o Saraiva";
+      echo ", Universidade do Minho, Braga, Portugal"; }
  li { a(href="http://www.lsv.ens-cachan.fr/~schmitz/") "Sylvain Schmitz";
       echo ", Ecole Normale Sup&eacute;rieure de Cachan, France"; }
  li { a(href="http://www.comp.mq.edu.au/~asloane/") "Tony Sloane"; 
       echo ", Macquarie University, Australia (co-chair)"; }
+ li { a(href="") "Robert Tairas"; 
+      echo ", Inria, France"; }
  li { a(href="http://tratt.net/laurie/") "Laurence Tratt";
       echo ", King's College London, UK"; }
  li { a(href="http://grammarware.net") "Vadim Zaytsev"; 
        echo ", Centre for Mathematics & Computer Science, The Netherlands"; }
- li { echo "[Full list to be announced later]"; }
 }
 
 h2 "Organizing Committee";
