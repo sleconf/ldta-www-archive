@@ -69,6 +69,16 @@ def relatedLinks
    }
 
    li {
+     h2 "Co-located Workshops";
+     ul {
+      li a(href="http://www.program-transformation.org/BX12/") "BX 2012";
+      li a(href="http://www.cem.brighton.ac.uk/gt-vmt12/") "GT-VMT 2012";
+      li a(href="http://sysrun.haifa.il.ibm.com/hrl/vsse2012/") "VSSE 2012";
+     }
+   }
+
+
+   li {
      h2 "Organization";
      ul {
           li a(href="committees.html") "Committees";
