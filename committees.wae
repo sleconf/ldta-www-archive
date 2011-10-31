@@ -59,7 +59,7 @@ ul {
       echo ", Ecole Normale Sup&eacute;rieure de Cachan, France"; }
  li { a(href="http://www.comp.mq.edu.au/~asloane/") "Tony Sloane";
       echo ", Macquarie University, Australia (co-chair)"; }
- li { a(href="") "Robert Tairas";
+ li { a(href="http://students.cis.uab.edu/tairasr/") "Robert Tairas";
       echo ", Inria, France"; }
  li { a(href="http://tratt.net/laurie/") "Laurence Tratt";
       echo ", King's College London, UK"; }
