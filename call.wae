@@ -124,9 +124,10 @@ Programming (Elsevier Science).
 
 
 h2 "Invited Speaker" ;
-p "
-  To be announced
-";
+ul {
+li { a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 
+      echo ", University of Bonn, Germany"; }
+}
 
 h2 "LDTA Tool Challenge" ;
 
