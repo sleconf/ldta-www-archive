@@ -41,7 +41,7 @@ ul {
  li { echo "nov. 14, 2011:"; br;
    echo "The invited speaker for LDTA 2012 will be ";
    a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 
-   echo "(University of Bonn, Germany).";
+   echo " (University of Bonn, Germany).";
  }
  li { echo "oct. 20, 2011:"; br;
       a (href="committees.html") "program committee";
