@@ -125,7 +125,7 @@ Programming (Elsevier Science).
 
 h2 "Invited Speaker" ;
 ul {
-li { a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 
+li { a(href="http://www.iai.uni-bonn.de/~jv") "Janis Voigtl&auml;nder"; 
       echo ", University of Bonn, Germany"; }
 }
 
