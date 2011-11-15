@@ -39,7 +39,7 @@ section("News and updates") {
 
 ul {
  li { echo "nov. 14, 2011:"; br;
-   echo "We are pleased to announce that the keynote speaker for LDTA 2012 is ";
+   echo "We are pleased to announce that the keynote speaker of LDTA 2012 is ";
    a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 
    echo " (University of Bonn, Germany).";
  }
