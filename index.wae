@@ -38,6 +38,29 @@ def updates
 section("News and updates") {
 
 ul {
+ li { echo "Feb. 8, 2012:"; br;
+   echo"The keynote speaker of LDTA 2012 is ";
+   a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 
+   echo " (University of Bonn, Germany). The title and abstract of his talk are
+the following:";
+       ul {
+        li "Title: Programming language approaches to bidirectional
+transformation";
+        li "Abstract: Bidirectional transformations are pairs of functions going
+back and forth between two data domains, possibly taking extra information into
+account to disambiguate in one or both directions, while being governed by
+certain consistency conditions. Application scenarios are view-update
+propagation in databases, model-driven engineering, and programming environments
+like structured editors, among others. Consequently, diverse disciplines
+contribute to the interest and development in this area. We focus on approaches
+that, rather than being centered on the data, take the involved transformations
+seriously as programs to analyze and manipulate. We meet some good old friends
+like program transformation, domain-specific languages, and expressive types,
+and hopefully make some new ones like search-based program synthesis and ways to
+capture user/programmer intent."; 
+       }
+ }
+
  li { echo "Jan. 25, 2012:"; br;
       echo "The following papers have been accepted for presentation at LDTA 2012." ;
       br;
