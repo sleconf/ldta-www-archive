@@ -38,6 +38,22 @@ def updates
 section("News and updates") {
 
 ul {
+ li { echo "Jan. 25, 2012:"; br;
+      echo "The following papers have been accepted for presentation at LDTA 2012." ;
+      br;
+      ul {
+        li "Sebastian Erdweg, Paolo G. Giarrusso and Tillmann Rendel: Language Composition Untangled" ; 
+        li "Johnni Winther: Improving Precision of Generated ASTs" ;
+        li "Tobi Vollebregt, Lennart C. L. Kats and Eelco Visser: Declarative Specification of Template-Based Textual Editors" ;
+        li "Marcos Viera, Doaitse Swierstra and Atze Dijkstra: Grammar Fragments Fly First-Class" ;
+        li "Marcos Viera, Doaitse Swierstra and Arie Middelkoop: UUAG Meets AspectAG: How to make Attribute Grammars First-Class" ;
+        li "Daniel Lincke and Sibylle Schupp: From HOT to COOL - Transforming Higher-Order Typed Languages to Concept-Constrained Object-Oriented Languages" ;
+        li "Maartje De Jonge and Eelco Visser: A Language Generic Solution for Name Binding Preservation in Refactorings" ;
+        li "Vadim Zaytsev: Notation-Parametric Grammar Recovery" ;
+        li "Jean-Christophe Bach, Pierre-Etienne Moreau, Marc Pantel and Xavier Cr&eacute;gut: Model Transformations with Tom" ;
+      }
+ }
+
  li { echo "nov. 14, 2011:"; br;
    echo "We are pleased to announce that the keynote speaker of LDTA 2012 is ";
    a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 

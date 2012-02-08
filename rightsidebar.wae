@@ -32,14 +32,18 @@ def relatedLinks
          li a(href="http://www.easychair.org/conferences/?conf=ldta2012")
             "EasyChair Submission";
 
-//         li "Paper templates";
-//         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
-//              a(href="styleTemplates/ldta-2011-template.tex") "LaTeX";
-//              echo "|";
-//              a(href="styleTemplates/ldta-2011-template.bib") "BiBteX";
-//              echo "|";
-//              a(href="styleTemplates/ldta-2011-template.pdf") "PDF";
-//            }
+         li "Paper templates";
+         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
+              a(href="styleTemplates/ldta-2012-template.tex") "LaTeX";
+              echo "|";
+              a(href="styleTemplates/ldta-2012-template.bib") "BibTeX";
+              echo "|";
+              a(href="styleTemplates/ldta-2012-template.pdf") "PDF";
+              echo "|";
+              a(href="styleTemplates/ldta-2012-template.zip") "zip";
+              echo "|";
+              a(href="styleTemplates/ldta-2012-template.tar.gz") "tar.gz";
+            }
      }
    }
 
