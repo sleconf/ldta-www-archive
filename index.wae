@@ -36,7 +36,13 @@ end
 
 def updates
 section("News and updates") {
-
+ul {
+ li { echo "Mar. 13, 2012:"; br;
+ echo"The ETAPS workshops schedule is now available at":
+ a(href="http://cs.ioc.ee/etaps12/programme/etaps12-workshops-schedule.pdf")
+"http://cs.ioc.ee/etaps12/programme/etaps12-workshops-schedule.pdf"
+ }
+} 
 ul {
  li { echo "Feb. 8, 2012:"; br;
    echo"The keynote speaker of LDTA 2012 is ";

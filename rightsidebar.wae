@@ -6,7 +6,7 @@ end
 
 def relatedLinks
  ul {
-//   li { a(href="LDTA-2011-Programme.pdf") "LDTA 2011 Programme"; }
+   li { a(href="http://cs.ioc.ee/etaps12/programme/etaps12-workshops-schedule.pdf") "ETAPS 2012 Workshops Program"; }
 //   li { a(href="index.html") "Home"; br;
 //        a(href="flyer.pdf") "1 page LDTA flyer"; 
 //      }
