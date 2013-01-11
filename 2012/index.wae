@@ -1,0 +1,253 @@
+module home
+import rightsidebar
+import leftsidebar
+
+site
+ index.html: main
+end
+
+def css(url, media)
+  link(rel="stylesheet", href=url, type="text/css", media=media);
+end
+
+def preface(year,doi)
+  a(href="http://dx.doi.org/10.1016/" + doi) year;
+end
+
+//def sp 
+//  echo "&nbsp;";
+//end
+
+
+def content
+  ldtaHeading();
+  updates();
+//  tweets();
+//  program();
+
+end
+
+
+def ldtaHeading
+ p "12th International Workshop on Language Descriptions, Tools, 
+    and Applications" ;
+ p "Tallinn, Estonia; March 31 - April 1, 2012; an ETAPS workshop" ;
+end
+
+def updates
+section("News and updates") {
+ul {
+ li { echo "Mar. 13, 2012:"; br;
+ echo "The ETAPS workshops schedule is now available at:"; br;
+ a(href="http://cs.ioc.ee/etaps12/programme/etaps12-workshops-schedule.pdf") "http://cs.ioc.ee/etaps12/programme/etaps12-workshops-schedule.pdf";
+ }
+} 
+ul {
+ li { echo "Feb. 8, 2012:"; br;
+   echo"The keynote speaker of LDTA 2012 is ";
+   a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 
+   echo " (University of Bonn, Germany). The title and abstract of his talk are
+the following:";
+       ul {
+        li "Title: Programming language approaches to bidirectional
+transformation";
+        li "Abstract: Bidirectional transformations are pairs of functions going
+back and forth between two data domains, possibly taking extra information into
+account to disambiguate in one or both directions, while being governed by
+certain consistency conditions. Application scenarios are view-update
+propagation in databases, model-driven engineering, and programming environments
+like structured editors, among others. Consequently, diverse disciplines
+contribute to the interest and development in this area. We focus on approaches
+that, rather than being centered on the data, take the involved transformations
+seriously as programs to analyze and manipulate. We meet some good old friends
+like program transformation, domain-specific languages, and expressive types,
+and hopefully make some new ones like search-based program synthesis and ways to
+capture user/programmer intent."; 
+       }
+ }
+
+ li { echo "Jan. 25, 2012:"; br;
+      echo "The following papers have been accepted for presentation at LDTA 2012." ;
+      br;
+      ul {
+        li "Sebastian Erdweg, Paolo G. Giarrusso and Tillmann Rendel: Language Composition Untangled" ; 
+        li "Johnni Winther: Improving Precision of Generated ASTs" ;
+        li "Tobi Vollebregt, Lennart C. L. Kats and Eelco Visser: Declarative Specification of Template-Based Textual Editors" ;
+        li "Marcos Viera, Doaitse Swierstra and Atze Dijkstra: Grammar Fragments Fly First-Class" ;
+        li "Marcos Viera, Doaitse Swierstra and Arie Middelkoop: UUAG Meets AspectAG: How to make Attribute Grammars First-Class" ;
+        li "Daniel Lincke and Sibylle Schupp: From HOT to COOL - Transforming Higher-Order Typed Languages to Concept-Constrained Object-Oriented Languages" ;
+        li "Maartje De Jonge and Eelco Visser: A Language Generic Solution for Name Binding Preservation in Refactorings" ;
+        li "Vadim Zaytsev: Notation-Parametric Grammar Recovery" ;
+        li "Jean-Christophe Bach, Pierre-Etienne Moreau, Marc Pantel and Xavier Cr&eacute;gut: Model Transformations with Tom" ;
+      }
+ }
+
+ li { echo "nov. 14, 2011:"; br;
+   echo "We are pleased to announce that the keynote speaker of LDTA 2012 is ";
+   a(href="http://www.iai.uni-bonn.de/~jv/") "Janis Voigtl&auml;nder"; 
+   echo " (University of Bonn, Germany).";
+ }
+ li { echo "oct. 20, 2011:"; br;
+      a (href="committees.html") "program committee";
+      echo " now available.";
+    }
+
+ li { echo "Oct. 16, 2011:"; br;
+      a (href="call.html") "Call for Papers";
+      echo " now available.";
+    }
+
+ li { echo "Sep. 14, 2011:"; br;
+      echo "The deadlines for LDTA 2012 have been settled:";
+      br;
+      ul {
+        li "Abstract submission: Nov. 28, 2011" ;
+        li "Full paper submission: Dec. 5, 2011" ;
+        li "Author notification: Jan. 20, 2012" ;
+        li "Tool challenge submission: Mar. 04, 2012" ;
+        li "Camera-ready papers: Feb. 5, 2012" ;
+      }
+ }
+ 
+ li { echo "Mar. 17, 2011:"; br;
+      echo "The LDTA 2011 program with times for talks and Tool " ;
+      echo "Challenge presentations is available " ; 
+      a(href="LDTA-2011-Programme.pdf") "here." ; 
+ }
+    
+ li { echo "Feb. 2, 2011, 20:45 GMT:"; br;
+      echo "A mistake in the original templates for the final
+      camera-ready versions of the papers was fixed and the new
+      correct files can be found in the sidebar to the right." ;
+    }
+ li { echo "Feb. 2, 2011:"; br;
+      echo "The following papers will be presented at LDTA 2011." ;
+      br;
+      ul {
+        li { echo "Building Semantic Editors using JastAdd -
+             Tool Demonstration, 
+             by Emma S&ouml;derberg and G&ouml;rel Hedin." ; }
+
+        li "Delayed semantic actions in a dependent parser, 
+            by Yitzhak Mandelbaum and Trevor Jim.";
+
+        li "Exploiting algebra/coalgebra duality for program fusion
+            extensions, 
+            by Facundo Dominguez and Alberto Pardo.";
+
+        li "From Type Checking by Recursive Descent to Type Checking
+            with an Abstract Machine, 
+            by Ilya Sergey and Dave Clarke.";
+
+        li "Higher-order Transformations with Nested Concrete Syntax, 
+            by Rob Economopoulos and Bernd Fischer.";
+
+        li "LDT: a language definition technique, 
+            by Adrian Johnstone, Elizabeth Scott, and Mark van den Brand.";
+
+        li "More Precise Typing of Rewrite Strategies, 
+            by Azamat Mametjanov, Victor Winter and Ralf Lammel.";
+
+        li "Parsing Reflective Grammars, 
+            by Paul Stansifer and Mitchell Wand.";
+
+        li "Stepwise Evaluation of Attribute Grammars, 
+            by Arie Middelkoop, Atze Dijkstra and Doaitse Swierstra.";
+
+        li "VLex: Visualizing a Lexical Analyzer Generator - Tool
+            Demonstration,
+            by Alisdair Jorgensen, Giorgios Economopoulos and Bernd Fischer.";
+
+        li "Yield grammar analysis in the Bellman's GAP compiler, 
+            by Robert Giegerich and Georg Sauthoff.";
+      }
+    }
+
+ li { echo "Feb. 2, 2011:"; br;
+      echo "The templates for the final camera-ready versions of the
+      papers can be found in the sidebar to the right." ;
+    }
+ li { echo "Nov. 24, 2010:"; br;
+      echo "The " ;
+      a(href="http://portal.acm.org/citation.cfm?id=1868281")
+       "proceedings of LDTA 2010 " ; 
+      echo "are now online in the ACM Digital Library.  Be sure to get
+      your paper for 2011 submitted as the 2011 proceedings will be
+      published there as well." ;
+    }
+
+ li { echo "Oct. 28, 2010:"; br;
+      echo "Some clarifications were made to the ";
+      a (href="tool.html") "Tool Challenge description"; br;
+      echo "A Google-group has been created to discussing the Tool
+      Challenge and specific questions about individual problems. 
+      It is available " ;
+      a(href="http://groups.google.com/group/ldta-2011-tool-challenge")
+      "here";       
+      echo "." ;
+    }
+ li { echo "Oct. 9, 2010:"; br;
+      a (href="call.html") "Call for Papers";
+      echo " and "; 
+      a (href="tool.html") "Tool Challenge description";
+      echo " now available.";
+    }
+}
+}
+end
+
+def parTitle(title)
+ h1.title title;
+end
+
+def par 
+ div.entry {
+  yield;
+ }
+end
+
+def section(title) 
+  parTitle(title);
+  par yield;
+end
+
+def subtitle(title)
+  p.meta small title;
+end
+
+def main 
+html(xmlns='http://www.w3.org/1999/xhtml) {
+ 
+    head {
+     title "LDTA";
+     meta(http-equiv="content-type", content="text/html; charset=utf-8");
+     meta(name="keywords", content="Programming Debugging Language Descriptions Parsing Parsers Term Rewriting Attribute Grammars Functional Programming Debugging Model Driven Engineering Formal Methods Meta Programming");
+     meta(name="description", content="The International Workshop on Language Descriptions Tools and Applications");
+     meta(name="language", content="NL");
+     css("./style.css", "screen");
+     comment "Design by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Compressed \nDescription: A three-column, fixed-width template fit for 1024x768 screen resolutions.\nVersion    : 1.0\nReleased   : 20080524";
+    }
+
+    body {
+      div#logo h1.logo "Workshop on Language Descriptions, Tools, and Applications";
+      div#page {
+        div.sidebar#sidebar1 {
+         br; 
+         previous;
+        }
+
+      div#content div.bgtop div.bgbtm div.post content();
+
+    div.sidebar#sidebar2 {
+      br;
+      relatedLinks;
+    }
+   }
+    div(style="clear: both;") {
+      br;
+      div#footer p.legal "&copy;2007 All Rights Reserved. 
+      Design by <a(href="http://www.freecsstemplates.org/") "Free CSS Templates">";
+    }
+  }
+  }
+end

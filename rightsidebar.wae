@@ -6,98 +6,12 @@ end
 
 def relatedLinks
  ul {
-   li { a(href="http://cs.ioc.ee/etaps12/programme/etaps12-workshops-schedule.pdf") "ETAPS 2012 Workshops Program"; }
-//   li { a(href="index.html") "Home"; br;
-//        a(href="flyer.pdf") "1 page LDTA flyer"; 
-//      }
-   li { 
-     h2 "Authors";
-     ul {
-
-//         li { echo "Updated NEW - Final version paper templates";
-//          ul {
-//           li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
-//                a(href="LDTA2011_Paper_Files_v2.tar.gz") "as a gzipped tar file";}
-//           li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
-//                a(href="LDTA2011_Paper_Files_v2.zip") "as a zip file"; }
-//          }
-//         }
-
-         li "Call for Papers";
-         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
-              a(href="call.html") "HTML"; echo "|";
-              a(href="ldta_2012_cfp.pdf") "PDF";  echo "|";
-              a(href="ldta_2012_cfp.txt") "Text"; 
-            }
-         li a(href="http://www.easychair.org/conferences/?conf=ldta2012")
-            "EasyChair Submission";
-
-         li "Paper templates";
-         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
-              a(href="styleTemplates/ldta-2012-template.tex") "LaTeX";
-              echo "|";
-              a(href="styleTemplates/ldta-2012-template.bib") "BibTeX";
-              echo "|";
-              a(href="styleTemplates/ldta-2012-template.pdf") "PDF";
-              echo "|";
-              a(href="styleTemplates/ldta-2012-template.zip") "zip";
-              echo "|";
-              a(href="styleTemplates/ldta-2012-template.tar.gz") "tar.gz";
-            }
-     }
-   }
-
-//   li {
-//     h2 "Tool Challenge";
-//     ul {
-//         li "Description and Problems";
-//         li { sp;sp;sp;sp;sp;sp; echo "-"; sp;
-//              a(href="tool.html") "HTML"; echo "|";
-//              a(href="ldta_2011_tool_challenge.pdf") "PDF";  echo "|";
-//              a(href="ldta_2011_tool_challenge.txt") "Text"; 
-//            }
-//	 li a(href="http://www-old.oberon.ethz.ch/WirthPubl/CBEAll.pdf") 
-//           "Wirth's compiler book";
-//	 li a(href="http://groups.google.com/group/ldta-2011-tool-challenge")
-//           "Google group for discussion of Tool Challenge problems" ;
-//     }
-//  }
-
-   li {
-     h2 "Attendees";
-     ul {
-      li { a(href="http://www.etaps.org/") "ETAPS"; sp;
-           a(href="http://www.etaps.org/") img(width=80, src="images/etapsLogo.gif"); 
-         } 
-     }
-   }
-
-   li {
-     h2 "Co-located Workshops";
-     ul {
-      li a(href="http://www.program-transformation.org/BX12/") "BX 2012";
-      li a(href="http://www.cem.brighton.ac.uk/gt-vmt12/") "GT-VMT 2012";
-      li a(href="http://sysrun.haifa.il.ibm.com/hrl/vsse2012/") "VSSE 2012";
-     }
-   }
-
-
    li {
      h2 "Organization";
      ul {
           li a(href="committees.html") "Committees";
      }
    }
-
-
-   li {
-     h2 "Organizers";
-     ul {
-          li a(href="http://organisation.ldta.info") "Wiki";
-//          li a(href="http://www.easychair.org/conferences/?conf=ldta2010") "EasyChair";
-     }
-   }
-
  }
 end
 

@@ -10,6 +10,24 @@ end
 
 def previous
  ul { 	
+   li { 
+     h2 "Important Dates";
+      ul {
+          li "Abstract submission:";
+          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nov. 28, 2011" ;
+          li "Full paper submission:";
+          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dec. 5, 2011" ;
+          li "Author notification:";
+          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan. 20, 2012" ;
+//          li "Tool challenge submission:";
+//          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar. 04, 2012" ;
+          li "Camera-ready papers:";
+          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Feb. 5, 2012" ;
+          li "LDTA Workshop:";
+          li "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar. 31-Apr. 1, 2012" ;
+     }
+     
+    br;
      h2 "Past workshops";
      ul {
           li workshop("2001","Genova");
@@ -23,7 +41,7 @@ def previous
           li workshop("2009","York");
           li workshop("2010","Paphos");
           li workshop("2011","Saarbr&uuml;cken");
-          li a(href="2012/index.html") "2012 Tallinn";
+          li a(href="index.html") "2012 Tallinn";
      }
      br;
      h2 "Past proceedings";
@@ -39,9 +57,9 @@ def previous
           li issue(2009,2010,"997469992-2353758");
           li a(href="http://portal.acm.org/citation.cfm?id=1868281") 2010 ;
           li a(href="http://portal.acm.org/citation.cfm?id=1988783") 2011 ;
-          li a(href="http://portal.acm.org/citation.cfm?id=2427048") 2012 ;
          }
      br; 
    }
+ }
 
 end
