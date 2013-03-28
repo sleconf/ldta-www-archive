@@ -36,8 +36,9 @@ section("From LDTA to SLE") {
  br;
  br;
  echo "The LDTA workshop series has been discontinued. The Steering Committee thanks all
-  authors, program committee members and organisers for their work on LDTA over the
-  years.";
+  program committee members and organisers for their work on LDTA over the
+  years. A special thanks goes out to the authors who contributed, by papers
+and talks, over last 12 years to shaping the language engineering community";
  br;
  br;
  echo "Authors of papers in the LDTA topic area are strongly encouraged to submit their work to the "; 
