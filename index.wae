@@ -31,16 +31,18 @@ def ldtaHeading
 end
 
 def updates
-section("News and updates") {
-ul {
- li { echo "Jan. 11, 2013:"; br;
- echo "The proceedings for LDTA 2012 are available at ";
- a(href="http://dl.acm.org/citation.cfm?id=2427048") "http://dl.acm.org/citation.cfm?id=2427048";
- }
- li { echo "Please find the LDTA 2012 site "; 
- a(href="./2012/index.html") "here.";
-}
-} 
+section("From LDTA to SLE") {
+ echo "February 28th, 2013";
+ br;
+ br;
+ echo "The LDTA workshop series has been discontinued. The Steering Committee thanks all
+  authors, program committee members and organisers for their work on LDTA over the
+  years.";
+ br;
+ br;
+ echo "Authors of papers in the LDTA topic area are strongly encouraged to submit their work to the "; 
+ a(href="http://planet-sl.org/sleconf") "International Conference on Software Language Engineering"; 
+ echo " instead.";
 }
 end
 
